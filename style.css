@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #eaeff3;
+}
+h1{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #e7eef3;
+	margin: 0 auto;
+	top: 10px;
+	position: relative;
+	border-radius: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+#result{
+	height: 120px;
+	background-color: #3980a5;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #353434;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keypad{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 25%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.number{
+	background-color: #d9e0e4;
+}
+
+.empty, .other-operators{
+	background-color: #e7eef3;
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 15px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #a2bbcf;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #a2bbcf;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #a2bbcf;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #a2bbcf;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #a2bbcf;
+}
